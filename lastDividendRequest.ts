@@ -56,6 +56,13 @@ export const lastDividendRequestSchema = {
                         "string"
                       ]
                     },
+                    "sessionId": {
+                      "description": "only use for vcsc rest",
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "serviceId": {
                       "type": [
                         "null",
@@ -176,6 +183,13 @@ export const lastDividendRequestSchema = {
                       ]
                     },
                     "connectionId": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "sessionId": {
+                      "description": "only use for vcsc rest",
                       "type": [
                         "null",
                         "string"

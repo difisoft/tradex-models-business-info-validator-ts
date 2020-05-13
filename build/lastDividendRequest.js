@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.lastDividendRequestValidator = exports.lastDividendRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.lastDividendRequestSchema = {
     "id": "http://tradex.techx.vn/business-info/lastDividendRequest",
